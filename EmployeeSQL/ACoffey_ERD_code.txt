@@ -1,0 +1,49 @@
+Departments
+-
+dept_no VARCHAR PK
+dept_name VARCHAR
+
+
+Dept_Emp
+-
+emp_no INT PK
+dept_no VARCHAR FK - Departments.dept_no
+
+
+
+Dept_Manager
+rel - Dept_Emp.dept_no
+rel - Departments.dept_no
+rel - Salaries.emp_no
+rel - Employees.emp_no
+-
+dept_no VARCHAR PK 
+emp_no INT FK - Dept_Emp.emp_no
+
+
+
+Employees
+rel - Dept_Emp.emp_no
+-
+emp_no INT PK
+emp_title_id VARCHAR FK - Titles.title_id
+birth_date VARCHAR
+first_name VARCHAR
+last_name VARCHAR
+sex VARCHAR
+hire_date VARCHAR
+
+
+Salaries
+rel - Employees.emp_no
+rel - Dept_Emp.emp_no
+-
+emp_no INT PK
+salary INT
+
+
+Titles
+-
+title_id  VARCHAR PK
+title VARCHAR
+
