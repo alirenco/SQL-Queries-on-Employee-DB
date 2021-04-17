@@ -1,10 +1,10 @@
 Author: Alisha Coffey
 
-schema.sql - creating tables in Employees_HW database
+schema.sql - creating tables in Employees database
 
 queries.sql - queries for answering each question/task
 
-ACoffey_Bonus_HW6_SQL.ipynb - Histogram and barcharts for employee salaries
+ACoffey_PlottingEmployeeData.ipynb - Histogram and barcharts for employee salaries
 
 ACoffey_ERD_code.txt - ERD metadata
 
