@@ -1,4 +1,5 @@
 Author: Alisha Coffey
+----------------------------
 
 schema.sql - creating tables in Employees database
 
